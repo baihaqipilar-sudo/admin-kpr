@@ -1,0 +1,155 @@
+[
+ {
+  "id": "main",
+  "stages": [
+   {
+    "key": "booking",
+    "name": "Booking",
+    "sla_days": null,
+    "sla_kind": "kerja",
+    "sla_ref": "prev"
+   },
+   {
+    "key": "bi_checking",
+    "name": "BI Checking/SLIK",
+    "sla_days": null,
+    "sla_kind": "kerja",
+    "sla_ref": "prev"
+   },
+   {
+    "key": "spkr",
+    "name": "SPKR",
+    "sla_days": null,
+    "sla_kind": "kerja",
+    "sla_ref": "prev"
+   },
+   {
+    "key": "ppjb",
+    "name": "PPJB",
+    "sla_days": null,
+    "sla_kind": "kerja",
+    "sla_ref": "prev"
+   },
+   {
+    "key": "berkas",
+    "name": "Pengumpulan Berkas",
+    "sla_days": 14,
+    "sla_kind": "kalender",
+    "sla_ref": "stage:spkr"
+   },
+   {
+    "key": "pengajuan",
+    "name": "Pengajuan ke Bank",
+    "sla_days": null,
+    "sla_kind": "kerja",
+    "sla_ref": "prev"
+   },
+   {
+    "key": "briefing",
+    "name": "Briefing",
+    "sla_days": null,
+    "sla_kind": "kerja",
+    "sla_ref": "prev"
+   },
+   {
+    "key": "wawancara",
+    "name": "Wawancara Bank",
+    "sla_days": null,
+    "sla_kind": "kerja",
+    "sla_ref": "prev"
+   },
+   {
+    "key": "ots",
+    "name": "OTS",
+    "sla_days": 5,
+    "sla_kind": "kerja",
+    "sla_ref": "stage:wawancara"
+   },
+   {
+    "key": "sp3k",
+    "name": "Follow Up Analis/SP3K",
+    "sla_days": null,
+    "sla_kind": "kerja",
+    "sla_ref": "prev"
+   },
+   {
+    "key": "alih_media",
+    "name": "Alih Media (Notaris)",
+    "sla_days": null,
+    "sla_kind": "kerja",
+    "sla_ref": "prev"
+   },
+   {
+    "key": "bphtb",
+    "name": "BPHTB",
+    "sla_days": null,
+    "sla_kind": "kerja",
+    "sla_ref": "prev"
+   },
+   {
+    "key": "akad",
+    "name": "Akad Kredit",
+    "sla_days": null,
+    "sla_kind": "kerja",
+    "sla_ref": "prev"
+   }
+  ],
+  "pbb_name": "PBB",
+  "status_labels": {
+   "belum": "Belum",
+   "proses": "Proses",
+   "selesai": "Lolos/Selesai",
+   "tidak_perlu": "Tidak Perlu",
+   "cancel": "Cancel"
+  },
+  "checklist": {
+   "fix": [
+    "KTP Pemohon",
+    "KTP Pasangan",
+    "Kartu Keluarga",
+    "Buku Nikah",
+    "NPWP",
+    "Slip Gaji 3 Bulan Terakhir",
+    "Surat Keterangan Kerja",
+    "Rekening Koran 3 Bulan",
+    "Pas Foto"
+   ],
+   "nonfix": [
+    "KTP Pemohon",
+    "KTP Pasangan",
+    "Kartu Keluarga",
+    "Buku Nikah",
+    "NPWP",
+    "Surat Keterangan Usaha/SIUP",
+    "Rekening Koran 6 Bulan",
+    "Laporan Keuangan Usaha",
+    "Foto Tempat Usaha",
+    "Pas Foto"
+   ]
+  },
+  "delay_reasons": [
+   "Konsumen lambat merespons/berkas kurang",
+   "Menunggu bank",
+   "Kendala teknis (sistem bank/SLIK)",
+   "Menunggu pihak lain",
+   "Keterlambatan internal",
+   "Lainnya"
+  ],
+  "cancel_reasons": [
+   "Ditolak bank",
+   "Hasil SLIK bermasalah",
+   "Konsumen mengundurkan diri",
+   "Berkas tidak lengkap",
+   "Lainnya"
+  ],
+  "slik_options": [
+   "Aman",
+   "Col 2",
+   "Col 3 ke atas"
+  ],
+  "holidays": [],
+  "warn_days": 7,
+  "max_pause_days": 7,
+  "stale_days": 7
+ }
+]

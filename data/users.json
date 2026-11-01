@@ -1,0 +1,14 @@
+[
+ {
+  "id": "u-admin",
+  "name": "Admin",
+  "role": "admin",
+  "password_hash": null
+ },
+ {
+  "id": "u-head",
+  "name": "Head Admin",
+  "role": "head_admin",
+  "password_hash": null
+ }
+]

@@ -1,0 +1,598 @@
+[
+ {
+  "archived": false,
+  "created_at": "2026-10-30T03:00:05.049381+00:00",
+  "updated_at": "2026-10-30T03:15:22.164019+00:00",
+  "berkas": {
+   "KTP Pemohon": true,
+   "Kartu Keluarga": true,
+   "NPWP": true,
+   "Surat Keterangan Kerja": false
+  },
+  "slik_result": "Aman",
+  "loan_note": "Tidak ada pinjaman aktif",
+  "cancel": {},
+  "id": "76e5742bd448",
+  "name": "Budi Santoso (contoh)",
+  "phone": "081234567801",
+  "project_id": "e2b384721062",
+  "type_id": "c4400b0e83f8",
+  "block_id": "25bfcb02a649",
+  "income_type": "fix",
+  "marketing": "Rina",
+  "bank_id": "317b758ae5c4",
+  "booking_date": "2026-09-20",
+  "stages": {
+   "booking": {
+    "status": "selesai",
+    "date": "2026-09-20",
+    "notes": [],
+    "pauses": [],
+    "late_reason": null,
+    "late_note": ""
+   },
+   "bi_checking": {
+    "status": "selesai",
+    "date": "2026-09-27",
+    "notes": [
+     {
+      "id": "b25b7f53b8c0",
+      "date": "2026-09-22",
+      "text": "SLIK diajukan ke BNI",
+      "author": "Admin",
+      "followup": null,
+      "created_at": "2026-10-30T03:00:05.049419+00:00"
+     },
+     {
+      "id": "2ecf84a1e53c",
+      "date": "2026-09-26",
+      "text": "Hasil SLIK belum keluar, sistem bank gangguan",
+      "author": "Admin",
+      "followup": null,
+      "created_at": "2026-10-30T03:00:05.049425+00:00"
+     }
+    ],
+    "pauses": [],
+    "late_reason": "Kendala teknis (sistem bank/SLIK)",
+    "late_note": "Sistem SLIK BNI down 3 hari"
+   },
+   "spkr": {
+    "status": "selesai",
+    "date": "2026-10-20",
+    "notes": [],
+    "pauses": [],
+    "late_reason": null,
+    "late_note": ""
+   },
+   "ppjb": {
+    "status": "selesai",
+    "date": "2026-10-22",
+    "notes": [],
+    "pauses": [],
+    "late_reason": null,
+    "late_note": ""
+   },
+   "berkas": {
+    "status": "proses",
+    "date": "2026-10-23",
+    "notes": [
+     {
+      "id": "1986bc9a3979",
+      "date": "2026-10-24",
+      "text": "Slip gaji dan rekening koran belum lengkap",
+      "author": "Admin",
+      "followup": "2026-11-01",
+      "created_at": "2026-10-30T03:00:05.049441+00:00"
+     }
+    ],
+    "pauses": [],
+    "late_reason": null,
+    "late_note": ""
+   },
+   "pbb": {
+    "status": "belum",
+    "date": null,
+    "notes": [],
+    "pauses": [],
+    "late_reason": null,
+    "late_note": ""
+   }
+  }
+ },
+ {
+  "archived": false,
+  "created_at": "2026-10-30T03:00:05.049381+00:00",
+  "updated_at": "2026-10-30T03:05:47.039723+00:00",
+  "berkas": {},
+  "slik_result": "",
+  "loan_note": "",
+  "cancel": {},
+  "id": "e0fd391d908f",
+  "name": "Siti Rahmawati (contoh)",
+  "phone": "081234567802",
+  "project_id": "33a285b0818a",
+  "type_id": "73fd4f839fcb",
+  "block_id": "e75f0c4c1f26",
+  "income_type": "nonfix",
+  "marketing": "Dimas",
+  "bank_id": "6b751f4ca734",
+  "booking_date": "2026-10-27",
+  "stages": {
+   "booking": {
+    "status": "selesai",
+    "date": "2026-10-27",
+    "notes": [],
+    "pauses": [],
+    "late_reason": null,
+    "late_note": ""
+   },
+   "bi_checking": {
+    "status": "proses",
+    "date": "2026-10-27",
+    "notes": [
+     {
+      "id": "bb334f40cc34",
+      "date": "2026-10-28",
+      "text": "Pengecekan SLIK tertunda, menunggu sistem BTN",
+      "author": "Admin",
+      "followup": null,
+      "created_at": "2026-10-30T03:00:05.049455+00:00"
+     }
+    ],
+    "pauses": [
+     {
+      "id": "c7fa6fa2f3f7",
+      "start": "2026-10-28",
+      "end": null,
+      "reason": "Kendala teknis (sistem bank/SLIK)",
+      "followup": "2026-11-01",
+      "note": "Sistem SLIK BTN sedang perbaikan",
+      "by": "Admin"
+     }
+    ],
+    "late_reason": null,
+    "late_note": ""
+   },
+   "pbb": {
+    "status": "belum",
+    "date": null,
+    "notes": [],
+    "pauses": [],
+    "late_reason": null,
+    "late_note": ""
+   }
+  }
+ },
+ {
+  "archived": false,
+  "created_at": "2026-10-30T03:00:05.049381+00:00",
+  "updated_at": "2026-10-30T03:00:05.049381+00:00",
+  "berkas": {},
+  "slik_result": "Col 3 ke atas",
+  "loan_note": "Kredit motor macet",
+  "cancel": {
+   "date": "2026-10-10",
+   "bank_id": "317b758ae5c4",
+   "reason": "Hasil SLIK bermasalah",
+   "note": "Col 5 di leasing"
+  },
+  "id": "796ed2bc2fcf",
+  "name": "Andi Wijaya (contoh)",
+  "phone": "081234567803",
+  "project_id": "e719b5fa97b3",
+  "type_id": "b5e719900904",
+  "block_id": "7f03d709a7e4",
+  "income_type": "fix",
+  "marketing": "Rina",
+  "bank_id": "317b758ae5c4",
+  "booking_date": "2026-10-05",
+  "stages": {
+   "booking": {
+    "status": "selesai",
+    "date": "2026-10-05",
+    "notes": [],
+    "pauses": [],
+    "late_reason": null,
+    "late_note": ""
+   },
+   "bi_checking": {
+    "status": "cancel",
+    "date": "2026-10-10",
+    "notes": [
+     {
+      "id": "8295e7881b54",
+      "date": "2026-10-10",
+      "text": "SLIK Col 5, konsumen tidak bisa lanjut",
+      "author": "Admin",
+      "followup": null,
+      "created_at": "2026-10-30T03:00:05.049477+00:00"
+     }
+    ],
+    "pauses": [],
+    "late_reason": null,
+    "late_note": ""
+   },
+   "pbb": {
+    "status": "belum",
+    "date": null,
+    "notes": [],
+    "pauses": [],
+    "late_reason": null,
+    "late_note": ""
+   }
+  }
+ },
+ {
+  "archived": false,
+  "created_at": "2026-10-30T03:00:05.049381+00:00",
+  "updated_at": "2026-10-30T03:00:05.049381+00:00",
+  "berkas": {},
+  "slik_result": "Aman",
+  "loan_note": "",
+  "cancel": {},
+  "id": "ecc9cdfbd110",
+  "name": "Dewi Lestari (contoh)",
+  "phone": "081234567804",
+  "project_id": "e2b384721062",
+  "type_id": "b7cb94308f8e",
+  "block_id": "acde393dcd00",
+  "income_type": "fix",
+  "marketing": "Dimas",
+  "bank_id": "6b751f4ca734",
+  "booking_date": "2026-08-31",
+  "stages": {
+   "booking": {
+    "status": "selesai",
+    "date": "2026-08-31",
+    "notes": [],
+    "pauses": [],
+    "late_reason": null,
+    "late_note": ""
+   },
+   "bi_checking": {
+    "status": "selesai",
+    "date": "2026-09-01",
+    "notes": [],
+    "pauses": [],
+    "late_reason": null,
+    "late_note": ""
+   },
+   "spkr": {
+    "status": "selesai",
+    "date": "2026-09-10",
+    "notes": [],
+    "pauses": [],
+    "late_reason": null,
+    "late_note": ""
+   },
+   "ppjb": {
+    "status": "selesai",
+    "date": "2026-09-15",
+    "notes": [],
+    "pauses": [],
+    "late_reason": null,
+    "late_note": ""
+   },
+   "berkas": {
+    "status": "selesai",
+    "date": "2026-09-20",
+    "notes": [],
+    "pauses": [],
+    "late_reason": null,
+    "late_note": ""
+   },
+   "pengajuan": {
+    "status": "selesai",
+    "date": "2026-09-30",
+    "notes": [],
+    "pauses": [],
+    "late_reason": null,
+    "late_note": ""
+   },
+   "briefing": {
+    "status": "tidak_perlu",
+    "date": null,
+    "notes": [],
+    "pauses": [],
+    "late_reason": null,
+    "late_note": ""
+   },
+   "wawancara": {
+    "status": "selesai",
+    "date": "2026-10-28",
+    "notes": [
+     {
+      "id": "2292ded2aa5e",
+      "date": "2026-10-28",
+      "text": "Wawancara lancar, menunggu jadwal OTS",
+      "author": "Admin",
+      "followup": null,
+      "created_at": "2026-10-30T03:00:05.049498+00:00"
+     }
+    ],
+    "pauses": [],
+    "late_reason": null,
+    "late_note": ""
+   },
+   "ots": {
+    "status": "proses",
+    "date": "2026-10-29",
+    "notes": [],
+    "pauses": [],
+    "late_reason": null,
+    "late_note": ""
+   },
+   "bphtb": {
+    "status": "proses",
+    "date": "2026-10-29",
+    "notes": [
+     {
+      "id": "69d2d87a36d5",
+      "date": "2026-10-29",
+      "text": "BPHTB diproses notaris",
+      "author": "Admin",
+      "followup": null,
+      "created_at": "2026-10-30T03:00:05.049505+00:00"
+     }
+    ],
+    "pauses": [],
+    "late_reason": null,
+    "late_note": ""
+   },
+   "pbb": {
+    "status": "belum",
+    "date": null,
+    "notes": [],
+    "pauses": [],
+    "late_reason": null,
+    "late_note": ""
+   }
+  }
+ },
+ {
+  "archived": false,
+  "created_at": "2026-10-30T03:00:05.049381+00:00",
+  "updated_at": "2026-10-30T03:00:05.049381+00:00",
+  "berkas": {},
+  "slik_result": "Aman",
+  "loan_note": "",
+  "cancel": {},
+  "id": "c76ddd9f567c",
+  "name": "Rizky Pratama (contoh)",
+  "phone": "081234567805",
+  "project_id": "33a285b0818a",
+  "type_id": "97d29bbb08f0",
+  "block_id": "9e195d3d6918",
+  "income_type": "nonfix",
+  "marketing": "Rina",
+  "bank_id": "317b758ae5c4",
+  "booking_date": "2026-08-01",
+  "stages": {
+   "booking": {
+    "status": "selesai",
+    "date": "2026-08-01",
+    "notes": [],
+    "pauses": [],
+    "late_reason": null,
+    "late_note": ""
+   },
+   "bi_checking": {
+    "status": "selesai",
+    "date": "2026-08-02",
+    "notes": [],
+    "pauses": [],
+    "late_reason": null,
+    "late_note": ""
+   },
+   "spkr": {
+    "status": "selesai",
+    "date": "2026-08-13",
+    "notes": [],
+    "pauses": [],
+    "late_reason": null,
+    "late_note": ""
+   },
+   "ppjb": {
+    "status": "selesai",
+    "date": "2026-08-19",
+    "notes": [],
+    "pauses": [],
+    "late_reason": null,
+    "late_note": ""
+   },
+   "berkas": {
+    "status": "selesai",
+    "date": "2026-08-25",
+    "notes": [],
+    "pauses": [],
+    "late_reason": null,
+    "late_note": ""
+   },
+   "pengajuan": {
+    "status": "selesai",
+    "date": "2026-08-31",
+    "notes": [],
+    "pauses": [],
+    "late_reason": null,
+    "late_note": ""
+   },
+   "briefing": {
+    "status": "selesai",
+    "date": "2026-09-06",
+    "notes": [],
+    "pauses": [],
+    "late_reason": null,
+    "late_note": ""
+   },
+   "wawancara": {
+    "status": "selesai",
+    "date": "2026-09-12",
+    "notes": [],
+    "pauses": [],
+    "late_reason": null,
+    "late_note": ""
+   },
+   "ots": {
+    "status": "selesai",
+    "date": "2026-09-18",
+    "notes": [],
+    "pauses": [],
+    "late_reason": null,
+    "late_note": ""
+   },
+   "sp3k": {
+    "status": "selesai",
+    "date": "2026-09-24",
+    "notes": [],
+    "pauses": [],
+    "late_reason": null,
+    "late_note": ""
+   },
+   "alih_media": {
+    "status": "selesai",
+    "date": "2026-09-30",
+    "notes": [],
+    "pauses": [],
+    "late_reason": null,
+    "late_note": ""
+   },
+   "bphtb": {
+    "status": "selesai",
+    "date": "2026-10-06",
+    "notes": [],
+    "pauses": [],
+    "late_reason": null,
+    "late_note": ""
+   },
+   "akad": {
+    "status": "selesai",
+    "date": "2026-10-25",
+    "notes": [
+     {
+      "id": "c3011303dff4",
+      "date": "2026-10-25",
+      "text": "Akad kredit di kantor BNI",
+      "author": "Admin",
+      "followup": null,
+      "created_at": "2026-10-30T03:00:05.049540+00:00"
+     }
+    ],
+    "pauses": [],
+    "late_reason": null,
+    "late_note": ""
+   },
+   "pbb": {
+    "status": "selesai",
+    "date": "2026-10-10",
+    "notes": [],
+    "pauses": [],
+    "late_reason": null,
+    "late_note": ""
+   }
+  }
+ },
+ {
+  "name": "RAHMAWATI",
+  "phone": "-",
+  "project_id": "e2b384721062",
+  "type_id": "a9950914bc4e",
+  "block_id": "8c48a75c8649",
+  "income_type": "nonfix",
+  "marketing": "SLIYANTO",
+  "bank_id": "317b758ae5c4",
+  "booking_date": "2026-10-30",
+  "id": "d51bd27317e3",
+  "archived": false,
+  "created_at": "2026-10-30T03:16:48.991784+00:00",
+  "updated_at": "2026-10-30T03:30:41.454476+00:00",
+  "berkas": {
+   "KTP Pemohon": true,
+   "KTP Pasangan": true,
+   "Kartu Keluarga": true,
+   "Buku Nikah": true,
+   "Surat Keterangan Usaha/SIUP": true,
+   "NPWP": true,
+   "Rekening Koran 6 Bulan": true,
+   "Pas Foto": true,
+   "Foto Tempat Usaha": true
+  },
+  "slik_result": "",
+  "loan_note": "",
+  "cancel": {},
+  "stages": {
+   "booking": {
+    "status": "selesai",
+    "date": "2026-10-01",
+    "notes": [],
+    "pauses": []
+   },
+   "bi_checking": {
+    "status": "selesai",
+    "date": "2026-11-12",
+    "notes": [
+     {
+      "id": "54aad04d263f",
+      "date": "2026-10-30",
+      "text": "PROSES BARU DIKIRIM KE BANG VAZIL",
+      "author": "Admin",
+      "followup": null,
+      "created_at": "2026-10-30T03:20:52.526574+00:00"
+     },
+     {
+      "id": "09bc0c5a5455",
+      "date": "2026-10-30",
+      "text": "BANG VAZIL LUPA",
+      "author": "Admin",
+      "followup": null,
+      "created_at": "2026-10-30T03:22:07.647354+00:00"
+     }
+    ],
+    "pauses": [],
+    "late_reason": "Menunggu bank",
+    "late_note": "BANG VAZIL LUPA"
+   },
+   "spkr": {
+    "status": "selesai",
+    "date": "2026-10-30",
+    "notes": [],
+    "pauses": [],
+    "late_reason": null,
+    "late_note": ""
+   },
+   "ppjb": {
+    "status": "selesai",
+    "date": "2026-10-30",
+    "notes": [
+     {
+      "id": "c2931c3d3012",
+      "date": "2026-11-03",
+      "text": "OK",
+      "author": "Admin",
+      "followup": null,
+      "created_at": "2026-10-30T03:30:01.829863+00:00"
+     }
+    ],
+    "pauses": [],
+    "late_reason": null,
+    "late_note": ""
+   },
+   "berkas": {
+    "status": "proses",
+    "date": "2026-10-31",
+    "notes": [
+     {
+      "id": "30c74c1ac3c4",
+      "date": "2026-10-30",
+      "text": "SUDAH BUAT NPWP TINGGAL WAWANCARA",
+      "author": "Admin",
+      "followup": null,
+      "created_at": "2026-10-30T03:30:41.454453+00:00"
+     }
+    ],
+    "pauses": [],
+    "late_reason": null,
+    "late_note": ""
+   }
+  }
+ }
+]
